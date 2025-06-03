@@ -1,0 +1,43 @@
+/* 1. universal selector   */
+
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0
+}
+
+/* 2. element selector */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+    /* id selector */
+    #main-heading{
+        font-size: 40px;
+        
+    }
+
+    /* class selector */
+    .intro{
+        color: green;
+        font-size: 20px;
+    }  
+    
+    /* 5. Group selector */
+    h1, p{
+        margin-bottom: 10px;
+    }
+
+    /* 6. Descendant selector */
+    .box p{
+        color: purple;
+        font-style: italic;
+    }
+
+    /* 7. child selector */
+    
+    ul > li{
+        list-style-type: square;
+        margin-left: 20px;
+        color: #9db525;
+    }
